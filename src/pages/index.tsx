@@ -1,3 +1,9 @@
+import { Center, Heading } from '@chakra-ui/react'
+
 export default function Home(): JSX.Element {
-  return <h1>Hello World</h1>
+  return (
+    <Center h="100vh">
+      <Heading>Hello World</Heading>
+    </Center>
+  )
 }
